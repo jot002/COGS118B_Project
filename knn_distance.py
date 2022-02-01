@@ -3,7 +3,7 @@ def knn_distance(arr,q,k):
     difference = []
     orig_index = 0
     for num in arr:
-        difference.append([np.abs(num-q), orig_index])
+        difference.append([abs(num-q), orig_index])
         orig_index += 1
     difference = sorted(difference)
 
