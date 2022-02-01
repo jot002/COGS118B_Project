@@ -1,4 +1,3 @@
-import numpy as np
 def knn_distance(arr,q,k):
     n = len(arr)
     difference = []
